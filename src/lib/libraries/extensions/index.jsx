@@ -105,7 +105,7 @@ export default [
         insetIconURL: penInsetIconURL,
         description: (
             <FormattedMessage
-                defaultMessage="Draw with your sprites."
+                defaultMessage="Draw with your puny sprites."
                 description="Description for the 'Pen' extension"
                 id="gui.extension.pen.description"
             />
