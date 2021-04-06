@@ -4,6 +4,9 @@ import {FormattedMessage} from 'react-intl';
 import customImage from './custom/custom.png';
 import customInsetImage from './custom/custom-small.svg';
 
+import customImage from './custom/custom.png';
+import customInsetImage from './custom/custom-small.svg';
+
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
 
@@ -72,7 +75,27 @@ export default [
         ),
         featured: true
     },
+    export default [
     {
+        name: (
+            <FormattedMessage
+                defaultMessage="cloudlink"
+                description="Name for the custom extension selector"
+                id="gui.extension.custom.name"
+            />
+        ),
+        iconURL: customImage,
+        insetIconURL: customInsetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="the cloudlink extension"
+                description="Description for the cloudlink extension selector"
+                id="gui.extension.cloudlink.description"
+            />
+        ),
+        featured: true
+    },
+{
         name: (
             <FormattedMessage
                 defaultMessage="Music"
